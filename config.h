@@ -7,7 +7,7 @@ static int topbar = 1;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {"Terminus:pixelsize=14", "JoyPixels:pixelsize=10"};
 /* -p  option; prompt to the left of input field */
-static const char *prompt      = " >";
+static const char *prompt      = "  ❯ ";
 #include "/home/fvb/.cache/wal/colors-wal-dmenu.h"
 /* static const char *colors[SchemeLast][2] = { */
 	/*               fg         bg       */
@@ -17,7 +17,7 @@ static const char *prompt      = " >";
  *};
  */
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 10;
+static unsigned int lines      = 20;
 
 /*
  * Characters not considered part of a word while deleting words
